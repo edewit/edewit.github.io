@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+subtitle: Stuff I work on...
+sitemap:
+  priority: 0.9
+---
+
+<ul class="list-posts">
+    {% for post in site.posts %}
+        {% if forloop.index == 1 %}
+        <div class="post-teaser">
+            {{ post.excerpt }}
+            <a href="{{ post.url | prepend: site.baseurl }}">more...</a>
+        </div>
+        {% endif %}
+        {% if forloop.index != 1 %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
