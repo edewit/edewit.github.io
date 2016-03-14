@@ -6,9 +6,18 @@ sitemap:
 @charset "utf-8";
 
 /* =Colors */
-$dorian: #F5F5F5;
-$iron: #333333;
-$cloudy: #828282;
+$dorian: #002a35;
+$iron: #839496;
+$cloudy: #2aa198;
+
+pre.highlight {
+    border: 1px solid #2d6472;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+code.hljs {
+    background-color: #073642;
+}
 
 @import
     "mixins",
