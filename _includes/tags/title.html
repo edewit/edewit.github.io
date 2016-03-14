@@ -1,0 +1,10 @@
+{% for tag in site.data.tags %}
+  {% if tag.slug == page.tag %}
+    {% assign tag_name =  tag.name %}
+  {% endif %}
+{% endfor %}
+
+<h1 class="page-title">
+    <div class="page-title__text">{{ tag_name }}</div>
+    <div class="page-title__subtitle">Articles on the tag <strong>‘{{ tag_name }}’</strong></div>
+</h1>

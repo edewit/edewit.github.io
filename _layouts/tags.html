@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-{% include category/title.html %}
+{% include tags/title.html %}
 
 <ul class="list-posts">
-    {% assign empty_category = true %}
+    {% assign empty_tags = true %}
     {% for post in site.posts %}
-        {% if post.categories contains page.category %}
+        {% if post.tags contains page.tag %}
             <li class="post-teaser">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <span class="post-teaser__title">{{ post.title }}</span>
                     <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
                 </a>
             </li>
-            {% assign empty_category = false %}
+            {% assign empty_tags = false %}
         {% endif %}
     {% endfor %}
 
-    {% if empty_category %}
+    {% if empty_tags %}
         <li class="empty-post-list">
             It seems that there are no articles on that category,
             please go back <a href="/">home</a> to see the full list of articles.
