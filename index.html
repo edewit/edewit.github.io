@@ -8,7 +8,7 @@ sitemap:
     {% for post in site.posts %}
         {% if forloop.index == 1 %}
         <div class="post-teaser">
-            <h3>{{ post.title }}</h3>
+            <span class="post-teaser__title">{{ post.title }}</span>
             {{ post.excerpt }}
             <a href="{{ post.url | prepend: site.baseurl }}">more...</a>
         </div>
