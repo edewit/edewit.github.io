@@ -18,8 +18,15 @@ a {
 }
 
 p {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+hr {
+    margin: 4em;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 img {
@@ -129,14 +136,14 @@ strong {
 
 /* =Titles */
 .page-title {
-    margin-top:100px;
-    margin-bottom:125px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
 .page-title__text {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .page-title__subtitle {
@@ -169,9 +176,12 @@ strong {
     font-weight: 700;
 }
 
+.post-teaser__excerpt {
+    color: $iron;
+}
+
 .post-teaser__title {
     font-size: 22px;
-    color: $iron;
 }
 
 .post-teaser__date {

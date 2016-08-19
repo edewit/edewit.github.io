@@ -7,18 +7,18 @@ sitemap:
 <ul class="list-posts">
     {% for post in site.posts %}
         {% if forloop.index == 1 %}
-        <div class="post-teaser">
-            <span class="post-teaser__title">{{ post.title }}</span>
-            {{ post.excerpt }}
-            <a href="{{ post.url | prepend: site.baseurl }}">more...</a>
-        </div>
+        <h1>{{ post.title }}</h1>
+        {{ post.content }}
         {% else %}
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__excerpt">{{ post.excerpt }}</span>
+                Read more <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
                 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
             </a>
         </li>
         {% endif %}
+        <hr/>
     {% endfor %}
 </ul>
