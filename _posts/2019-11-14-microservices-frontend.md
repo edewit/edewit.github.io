@@ -4,7 +4,7 @@ title: Microservices Frontends and Quarkus
 date: '2019-11-14'
 author: Erik Jan de Wit
 ---
-So I've been involved with [Quarkus](quarkus.io) especially their code generator site code.quarkus.io.
+So I've been involved with [Quarkus](http://quarkus.io/) especially their code generator site code.quarkus.io.
 Now I'm impressed with this project and I think it could be really big.
 Java is, for a lot of companies, a language that they invested big in, but for making microservices not ideal, due to the larger memory footprint.
 With quarkus, this and startup time, has been reduced dramatically.
