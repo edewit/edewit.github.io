@@ -6,7 +6,7 @@ author: Erik Jan de Wit
 ---
 
 So this is truning into a bit of a series.
-If you haven't read my other post on this have a look at those first [first][1][second][2]
+If you haven't read my other posts on this have a look at those first [first][1] [second][2]
 As I told in my previous post I set out to build webcomponents that would expose all the functionality of each service.
 
 We have 3 microservices 
