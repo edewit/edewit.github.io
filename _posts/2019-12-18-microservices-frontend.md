@@ -14,7 +14,7 @@ I've used the same technique for the webcomponents the carousel emits an event f
 ```
 
 A great addition to this project would be to use the vertx client side event bus to listen to the server events and update the state of the components.
-That way then different clients like a specific photo our view will automatically reflect that.
+That way, when different clients "perform a like" for a specific photo, our view will automatically reflect that.
 
 As mentioned on the [previous post][1] I created a "stitching layer" app that uses react.
 Optimally we wouldn't have to do this so we have no coupling at all, in it's simplest form we still would have a index.html that includes all the js code of the services.
