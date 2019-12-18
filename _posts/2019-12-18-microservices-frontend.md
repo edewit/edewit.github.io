@@ -43,7 +43,7 @@ Obviously this is something that we would like to have when we have so may diffe
 Server side rendering could potentially also remove the need for a "stitching layer" and when done really well help us with developing these kinds of microservices apps.
 
 One of the conclusions that we can make at this point is, although theoretically we could build all of these frontends in any framework, in practice we would want to minimize the number, as it will increase the size of the initial download.
-At a minimum we would have to use the same version of the framework.
+At a minimum we would have to use the same version of the frameworks.
 
 [1]: /2019/12/16/microservices-frontend.html
 [2]: https://www.patternfly.org/v4/
