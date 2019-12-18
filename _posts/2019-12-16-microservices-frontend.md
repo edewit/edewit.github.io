@@ -6,24 +6,24 @@ author: Erik Jan de Wit
 ---
 
 So this is turning into a bit of a series.
-If you haven't read my other posts on this have a look at those first [first][1] [second][2]
+If you haven't read my other posts on this have a look at those first [first][1] [second][2].
 As I told in my previous post I set out to build webcomponents that would expose all the functionality of each service.
 
 We have 3 microservices 
 1. [Photo Service][3]
 
-Right now this service doesn't have any photos just photoId, name and category.
-So I created a PR to add actual photos, as this will make the front-end a bit nicer
-It's going to be a caurousel with the photos and a form to add new photos
+      Right now this service doesn't have any photos just photoId, name and category.
+      So I created a PR to add actual photos, as this will make the front-end a bit nicer.
+      It's going to be a caurousel with the photos and a form to add new photos.
 
-2. [Like Service][4]
+1. [Like Service][4]
 
-  This service only adds likes for a specific photoId, so the UI for this will be simple, a "like button"
+      This service only adds likes for a specific photoId, so the UI for this will be simple, a "like button".
   
-3. [Query Service][5]
+1. [Query Service][5]
 
-  The query service gives you, for a specific category, the most liked photos.
-  For the UI here we can build a simple list
+      The query service gives you, for a specific category, the most liked photos.
+      For the UI here we can build a simple list.
   
 So I started implementing this following the post of [micro-frontends.org][6].
 My first idea was to use react, but then I realised that I needed to wrap react components to make them webcomponents.
