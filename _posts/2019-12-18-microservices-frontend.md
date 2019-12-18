@@ -30,7 +30,7 @@ A diagram from what we now have the "stitching layer" is still coupling:
 There is also a transparent proxy to make our request go to the right microservice:
 ![proxy](https://lh3.googleusercontent.com/3P4IaFMKecfeGqiLfH4AuYfnpI4hqQO6PnhYRmh35XWf7gv4ySxiAM67Zk0u0TmhAcdbduVKZPGU5ZsOPAAJKyOvqYv7s5TWj1azV-jIuegxXniCsb_yKq60Szsebp_qOevRNeBzez3zHo84ujUxUyZuvu_j7hZ7n0sUoTo28ymvsm2BknxUEWlTKMegHfbffTqsvkMqlVksK6-6bxWu_ErI9UJzsFcMFoFvK51yJtMH9gorIlGFFk_K5ZqXo0eWcRnW8MdPvcGzPW9HgoTeouJJI5SGVLOjcrpmcVexUTUzjygSBMlaXyRWkfs7r7VPgiGpyw7iOQGoHa9_cFsQ_B8vggXP-slerQTFdV9c9lkrxbzq0LfRzjwR-49ctyY4G7obVWcFP_CVpxsBfW7jXOcqtDPEgJzdcR912BWnEiiFpvgnKLcl0En5hAVftD0Yj0CP6x7Ubo41T2O8bWCFXuXeSg08fubyLkqgargn_VqzDSHcU9hF4WiguHppFM1lZFc_FiOS79N3oS6PZE4W3vxqnXqrEAQtUPBhW_UORlRVILJGYXYkkB4oZyNs6n-qZp_Pu5qMWR65zgAB7Gx_dWAmnFD7jiYXBUpNAKxdf1qezrtvtzOe-dxKf0aVnfeemYh3-9AcdYx55NCKe1Rm4a4NqUwQPUkTP6vcmNqOXKUhaO7lj11nXAhCJhLR3bmk-Qe3AR5u9k32TPvW3h_twy3gzL1Pj6HG60MMSs-55tic1sw=w449-h301-no)
 
-In production we'll have to setup this routing some other / better way
+In production we'll have to setup this routing some other / better way.
 
 Second challenge that I bumped into was styling.
 When you use webcomponents they use the shadow dom and css styling is local.
