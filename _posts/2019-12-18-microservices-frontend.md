@@ -4,6 +4,8 @@ title: Microservices Frontends
 date: '2019-12-18'
 author: Erik Jan de Wit
 ---
+*UPDATE 5 Apr*
+added link to the [source of the "stitching layer" layer][3] and it contains links to the other services
 
 The microservices mentioned in my [previous post][1] use the vertx event bus to communicate with each other.
 An event bus is of course a great way to separate services and have them coupled loosely.
@@ -45,5 +47,8 @@ Server side rendering could potentially also remove the need for a "stitching la
 One of the conclusions that we can make at this point is, although theoretically we could build all of these frontends in any framework, in practice we would want to minimize the number, as it will increase the size of the initial download.
 At a minimum we would have to use the same version of the frameworks.
 
+The [source of the "stitching layer" layer][3] and it contains links to the other services
+
 [1]: /2019/12/16/microservices-frontend.html
 [2]: https://www.patternfly.org/v4/
+[3]: https://github.com/edewit/photo-frontend-common
