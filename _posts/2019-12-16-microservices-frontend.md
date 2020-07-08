@@ -2,6 +2,9 @@
 layout: post
 title: Microservices Frontends
 date: '2019-12-16'
+tags:
+- micro-services
+
 author: Erik Jan de Wit
 ---
 

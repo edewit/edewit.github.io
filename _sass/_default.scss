@@ -265,6 +265,21 @@ strong {
     margin-top: 100px;
 }
 
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #d2f6ff;
+        color: #272d2e;
+    }
+
+    a {
+        color: #124440;
+    }
+
+    .logo {
+        color: #5d6c6e;
+    }
+}
+
 @media (max-width: 800px) {
     /* =Base */
     p {

@@ -2,6 +2,9 @@
 layout: post
 title: Microservices Frontends and Quarkus
 date: '2019-11-14'
+tags:
+- micro-services
+
 author: Erik Jan de Wit
 ---
 So I've been involved with [Quarkus](http://quarkus.io/) especially their code generator site code.quarkus.io.
