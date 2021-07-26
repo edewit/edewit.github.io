@@ -1,2 +1,16 @@
 <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  document.querySelector("#themeSelect").addEventListener("click", () => {
+    const classes = document.querySelector("html").classList;
+    const darkModeOn = document.querySelector("#themeSelect").checked;
+    darkModeOn ? classes.replace("day", "night") : classes.replace("night", "day");
+  });
+
+  const darkModeOn = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  document.querySelector("#themeSelect").checked = darkModeOn;
+  const classes = document.querySelector("html").classList;
+  darkModeOn ? classes.add("night") : classes.add("day");
+</script>
