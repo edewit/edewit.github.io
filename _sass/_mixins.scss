@@ -3,3 +3,22 @@
     text-align: center;
     width: 100%;
 }
+
+@mixin light {
+    body {
+        background-color: #d2f6ff;
+        color: #272d2e;
+    }
+
+    a {
+        color: #124440;
+    }
+
+    .logo {
+        color: #5d6c6e;
+    }
+
+    hr {
+        background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    }
+}
