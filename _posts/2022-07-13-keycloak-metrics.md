@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keycloak metrics
-date: '2022-09-13'
+date: '2022-07-13'
 author: Erik Jan de Wit
 ---
 
