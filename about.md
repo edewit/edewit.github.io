@@ -11,4 +11,4 @@ Even today I’m always looking at new technologies, to see if we can solve thin
 Because I’m very enthusiastic about technology, I like to exchange thoughts and knowledge with others.
 I do this by talking at conferences or writing blogs here.
 
-[me]:https://pbs.twimg.com/profile_images/446669128028262400/zpXaZjcw.jpeg
+[me]:https://cdn.social.linux.pizza/system/accounts/avatars/109/290/271/391/990/706/original/076ce12835ee250c.jpg
