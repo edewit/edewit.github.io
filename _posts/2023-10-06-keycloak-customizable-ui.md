@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing New Keycloak UI Component Libraries!
-date: '2023-09-06'
+date: '2023-10-06'
 author: Erik Jan de Wit
 ---
 
@@ -20,10 +20,19 @@ The packages are:
 
 ### Accelerate Your Development with Our Quickstart Tool
 
-To get you up and running in no time, we've also created a handy command-line tool: `npm init keycloak-theme my-theme`.
-This tool sets up a new project with the necessary dependencies, configuration, and a basic structure, saving you valuable time and effort.
-For more information, see the [README](https://github.com/keycloak/keycloak/blob/main/js/apps/create-keycloak-theme/README.md).
+Kickstart your project with our npm create keycloak-theme my-theme command.
+This streamlined tool generates a project structure, essential dependencies, and configuration, saving you precious time.
 
-Once you have ran the command, you can start developing your custom theme by editing the files in the `src` directory.
-Changes will be automatically reflected in your running instance of the theme.
-When you're ready to deploy your theme, simply run `mvn install` to generate a production-ready version of your theme, hat you can then deploy to your Keycloak instance.
+#### Get Started:
+
+1. Run `npm create keycloak-theme my-theme`.
+1. Customize your theme by editing files in the src directory.
+1. Deploy your theme using mvn install to generate a production-ready version.
+
+#### Key Benefits:
+
+1. Rapid development: Create stunning UIs in less time.
+1. Consistency: Adhere to the PatternFly design system for a cohesive look and feel.
+1. Flexibility: Customize components to match your brand and user preferences.
+
+For more information, see the [README](https://github.com/keycloak/keycloak/blob/main/js/apps/create-keycloak-theme/README.md).
