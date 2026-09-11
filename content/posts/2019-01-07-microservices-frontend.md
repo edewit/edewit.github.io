@@ -5,6 +5,8 @@ date: '2019-01-07'
 tags:
 - micro-services
 author: Erik Jan de Wit
+aliases:
+- /2019/01/07/microservices-frontend.html
 ---
 We've been working on what we call ["the launcher"][1].
 For those of you that don't know what "the launcher" is about let me introduce it quickly.

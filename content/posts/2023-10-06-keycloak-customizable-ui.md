@@ -3,6 +3,8 @@ layout: post
 title: Announcing New Keycloak UI Component Libraries!
 date: '2023-10-06'
 author: Erik Jan de Wit
+aliases:
+- /2023/10/06/keycloak-customizable-ui.html
 ---
 
 We're excited to announce the release of two new npm packages designed to supercharge your Keycloak customization efforts.

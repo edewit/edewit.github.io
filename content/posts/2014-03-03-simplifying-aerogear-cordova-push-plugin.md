@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-03-03T11:31:40.581-08:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-7782403837119350275
 blogger_orig_url: http://blog.nerdin.ch/2014/03/simplifying-aerogear-cordova-push-plugin.html
+aliases:
+- /2014/03/simplifying-aerogear-cordova-push-plugin.html
+- /2014/03/03/simplifying-aerogear-cordova-push-plugin.html
 ---
 
 The whole idea to create our own Push Plugin was to Simplify things. Because when we use the [UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server) we can do with a lot less platform specific configuration. But after some user feedback I've decided to change the API to make it even simpler to get started and more user friendly.

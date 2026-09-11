@@ -12,6 +12,9 @@ modified_time: '2015-07-06T01:09:28.309-07:00'
 thumbnail: http://3.bp.blogspot.com/-Yn9exIh4Lik/VZZIR1PTAWI/AAAAAAAAFq4/gymMq-75OHE/s72-c/Extendsions.PNG
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-9156201573636501934
 blogger_orig_url: http://blog.nerdin.ch/2015/07/windows-10-for-developers.html
+aliases:
+- /2015/07/windows-10-for-developers.html
+- /2015/07/03/windows-10-for-developers.html
 ---
 
 It's been a while since Windows 10 started it first preview releases and now the release date is approaching (29 July), it's time for me to find out what it's all about especially from a developers point of view. So the biggest change is going to be that there is no longer a need for 2 different binaries, the same code will run on windows desktop tablet and phone (and even xbox). That means if you want to migrate your app and you have `#if` statements you'll need to change them to run time checks:

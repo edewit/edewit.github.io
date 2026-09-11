@@ -8,6 +8,9 @@ tags:
 modified_time: '2014-01-15T07:05:13.490-08:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-7324958872607277349
 blogger_orig_url: http://blog.nerdin.ch/2014/01/unified-push-just-got-more-unified.html
+aliases:
+- /2014/01/unified-push-just-got-more-unified.html
+- /2014/01/15/unified-push-just-got-more-unified.html
 ---
 
 You probably know that we have a Unified Push server that enables you to notify multiple clients (e.g. Apple, Android and Web) using the same notification. We have had requests in the past to add Java client. I thought how hard could it be and had a go at it.

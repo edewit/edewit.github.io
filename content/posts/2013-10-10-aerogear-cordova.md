@@ -10,6 +10,9 @@ tags:
 modified_time: '2013-10-10T21:25:07.852-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-1126354836415376120
 blogger_orig_url: http://blog.nerdin.ch/2013/10/aerogear-cordova.html
+aliases:
+- /2013/10/aerogear-cordova.html
+- /2013/10/10/aerogear-cordova.html
 ---
 We support developers that want to use Cordova to develop mobile apps. We already have a lot of documentation on how to get started with Cordova on our site. Now we've added some specialised plugins to start using AeroGear functionality in a Cordova project. 
 

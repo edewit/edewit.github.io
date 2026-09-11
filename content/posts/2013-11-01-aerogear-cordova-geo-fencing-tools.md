@@ -11,6 +11,9 @@ tags:
 modified_time: '2015-02-25T02:28:07.503-08:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-8203970081804612891
 blogger_orig_url: http://blog.nerdin.ch/2013/11/aerogear-cordova-geo-fencing-tools.html
+aliases:
+- /2013/11/aerogear-cordova-geo-fencing-tools.html
+- /2013/11/01/aerogear-cordova-geo-fencing-tools.html
 ---
 
 A cool thing about mobile device is that it is _mobile_ it's a computer that you take with you. That is why we developed a Cordova plugin to make geo location inside your Cordova application easier. The first thing we did is to create some Javascript to easily create some maps that are mobile optimised and have some convenient functions for typical use cases. For instance have a map that shows where the device is located and a circle indicating the accuracy of this location:

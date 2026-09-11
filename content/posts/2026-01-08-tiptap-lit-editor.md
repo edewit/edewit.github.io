@@ -6,6 +6,8 @@ author: Erik Jan de Wit
 tags:
 - web
 - development
+aliases:
+- /2026/01/08/tiptap-lit-editor.html
 ---
 
 # Bridging the Gap: How We Made Quarkus Roq Feel Like a Modern CMS

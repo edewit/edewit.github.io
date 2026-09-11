@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-10-27T07:03:50.344-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-8864525542694249756
 blogger_orig_url: http://blog.nerdin.ch/2014/10/cordova-push-plugin-102-released.html
+aliases:
+- /2014/10/cordova-push-plugin-102-released.html
+- /2014/10/27/cordova-push-plugin-102-released.html
 ---
 
 We have released a new version of the cordova push plugin the new version 1.0.2 a new feature is support for external configuration. Now instead of using code you can store the variantId and secrets into a separate json file. With more platforms support coming this will not `pollute` your code anymore.

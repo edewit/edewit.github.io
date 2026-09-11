@@ -10,6 +10,9 @@ tags:
 modified_time: '2015-08-17T02:36:02.328-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-3400159542648828804
 blogger_orig_url: http://blog.nerdin.ch/2015/07/running-feedhenry-appforms-on-windows-81.html
+aliases:
+- /2015/07/running-feedhenry-appforms-on-windows-81.html
+- /2015/07/09/running-feedhenry-appforms-on-windows-81.html
 ---
 In order to use Feedhenry AppForms on Windows 8.1 we need to build them locally.  Not only that, but you'll need to add a compat script in order to have support for dynamic content. I've created a script that shows all the steps
 

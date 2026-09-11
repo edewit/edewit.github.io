@@ -6,6 +6,8 @@ tags:
 - micro-services
 
 author: Erik Jan de Wit
+aliases:
+- /2019/12/16/microservices-frontend.html
 ---
 
 So this is turning into a bit of a series.
@@ -83,8 +85,8 @@ I'm going to see if I can make this a bit nicer, but now we are ready to build a
 
 *Stay tuned for more on this!*
 
-[1]: /2019/01/07/microservices-frontend.html
-[2]: /2019/11/12/microservices-frontend.html
+[1]: /2019/01/07/microservices-frontend/
+[2]: /2019/11/14/microservices-frontend/
 [3]: https://github.com/noseka1/photo-gallery-photo
 [4]: https://github.com/noseka1/photo-gallery-like
 [5]: https://github.com/noseka1/photo-gallery-query

@@ -3,6 +3,8 @@ layout: post
 title: Keycloak metrics
 date: '2022-07-13'
 author: Erik Jan de Wit
+aliases:
+- /2022/07/13/keycloak-metrics.html
 ---
 
 In the new design of the admin ui of keycloak we wanted to include a dashboard with some statitics, why, because dashboards are cool and they look nice 😊

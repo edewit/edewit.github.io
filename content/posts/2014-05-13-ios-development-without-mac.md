@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-05-13T12:22:55.831-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-1758947379758923359
 blogger_orig_url: http://blog.nerdin.ch/2014/05/ios-development-without-mac.html
+aliases:
+- /2014/05/ios-development-without-mac.html
+- /2014/05/13/ios-development-without-mac.html
 ---
 
 So as you all know you don't need to know any objective-c to build great looking iOS apps. You can build them using HTML5 and javascript, but you still needed a mac to build it into an app and put it into the Appstore. With the introduction of phonegap build that was over you could build it in the cloud and test it on a device.

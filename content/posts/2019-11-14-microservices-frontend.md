@@ -6,6 +6,9 @@ tags:
 - micro-services
 
 author: Erik Jan de Wit
+aliases:
+- /2019/11/14/microservices-frontend.html
+- /2019/11/12/microservices-frontend.html
 ---
 So I've been involved with [Quarkus](http://quarkus.io/) especially their code generator site code.quarkus.io.
 Now I'm impressed with this project and I think it could be really big.
@@ -18,6 +21,6 @@ By doing so I'll hope to learn something and maybe find out some shortcomings.
 
 Stay tuned to see how it goes.
 
-[1]: /2019/01/07/microservices-frontend.html
+[1]: /2019/01/07/microservices-frontend/
 [2]: https://micro-frontends.org/
 [3]: https://github.com/noseka1/photo-gallery-monolith

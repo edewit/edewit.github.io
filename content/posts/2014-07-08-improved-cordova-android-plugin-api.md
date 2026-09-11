@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-07-08T06:15:54.889-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-5049267297453612648
 blogger_orig_url: http://blog.nerdin.ch/2014/07/improved-cordova-android-plugin-api.html
+aliases:
+- /2014/07/improved-cordova-android-plugin-api.html
+- /2014/07/08/improved-cordova-android-plugin-api.html
 ---
 
 Cordova has a nice API for creating your own plugins. When you need to do something in native code, (for improved speed or security) or need to access some hardware, you can create your own plugin. Our team is concentrating on Android and iOS at the moment and one thing that I noticed is how different the API is between those 2 platforms.

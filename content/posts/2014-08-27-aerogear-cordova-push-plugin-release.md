@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-08-27T02:17:07.761-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-7362150717905439075
 blogger_orig_url: http://blog.nerdin.ch/2014/08/aerogear-cordova-push-plugin-release.html
+aliases:
+- /2014/08/aerogear-cordova-push-plugin-release.html
+- /2014/08/27/aerogear-cordova-push-plugin-release.html
 ---
 
 ### Hi all,

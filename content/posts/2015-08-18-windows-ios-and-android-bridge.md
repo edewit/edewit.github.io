@@ -9,6 +9,9 @@ tags:
 modified_time: '2015-08-18T05:52:04.376-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-1033897216343578290
 blogger_orig_url: http://blog.nerdin.ch/2015/08/windows-ios-and-android-bridge.html
+aliases:
+- /2015/08/windows-ios-and-android-bridge.html
+- /2015/08/18/windows-ios-and-android-bridge.html
 ---
 
 With the introduction of Windows 10, Microsoft announced that there will support [running iOS and Android applications][1]. Now why Microsoft would try and build something like that is clear, Windows Phone is not getting that much traction and the reason for that is because there aren't that much apps. And developers don't build for Windows Phone because of it's market share a catch 22. So to break this they try to make it less of an effort for developers to publish there apps iOS and Android Apps on Windows Phone.

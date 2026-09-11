@@ -9,6 +9,9 @@ tags:
 modified_time: '2013-10-10T21:25:40.940-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-2055183036693967667
 blogger_orig_url: http://blog.nerdin.ch/2013/10/good-times.html
+aliases:
+- /2013/10/good-times.html
+- /2013/10/07/good-times.html
 ---
 
 When I started with programming in 1998 there were still companies that invested in their own libraries. Finding help with things online was still hard. We were building state of the art software with the newly released struts. Inventing our maven based on ant with CVS, and our own OR mapping tool of course. Java guys love building frameworks.

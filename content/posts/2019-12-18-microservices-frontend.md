@@ -5,6 +5,8 @@ date: '2019-12-18'
 tags:
 - micro-services
 author: Erik Jan de Wit
+aliases:
+- /2019/12/18/microservices-frontend.html
 ---
 *UPDATE 5 Apr*
 added link to the [source of the "stitching layer" layer][3] and it contains links to the other services
@@ -79,6 +81,6 @@ At a minimum we would have to use the same version of the frameworks.
 
 The [source of the "stitching layer" layer][3] and it contains links to the other services
 
-[1]: /2019/12/16/microservices-frontend.html
+[1]: /2019/12/16/microservices-frontend/
 [2]: https://www.patternfly.org/v4/
 [3]: https://github.com/edewit/photo-frontend-common

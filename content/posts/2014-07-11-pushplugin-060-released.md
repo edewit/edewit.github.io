@@ -10,6 +10,9 @@ tags:
 modified_time: '2014-07-11T03:09:28.482-07:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-6014879853550954341
 blogger_orig_url: http://blog.nerdin.ch/2014/07/pushplugin-060-released.html
+aliases:
+- /2014/07/pushplugin-060-released.html
+- /2014/07/11/pushplugin-060-released.html
 ---
 
 A new version of the push plugin (0.6.0) has been released. It now uses the latest push sdks and has a better test suite. Although we have plans to make the tests even better. The full list of changes is:

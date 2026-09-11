@@ -11,6 +11,9 @@ tags:
 modified_time: '2013-11-15T04:56:33.050-08:00'
 blogger_id: tag:blogger.com,1999:blog-236071318451058546.post-4847237411390466999
 blogger_orig_url: http://blog.nerdin.ch/2013/11/aerogear-crypto-plugin.html
+aliases:
+- /2013/11/aerogear-crypto-plugin.html
+- /2013/11/15/aerogear-crypto-plugin.html
 ---
 One of our feature that is nearing completion is crypto. Even though we have Javascript support for this feature, we decided that we would create a Cordova Plugin for this as well. With a Plugin we can use the native libraries and by doing so we add a bit more security and more importantly we improve speed. I've tried to stay as close as possible to the Javascript API, but Cordova demands us to work asynchronous so I've ended up with something that is not exactly the same:
 
