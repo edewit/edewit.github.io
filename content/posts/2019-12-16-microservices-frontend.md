@@ -81,7 +81,7 @@ declare namespace JSX {
 }
 ```
 I'm going to see if I can make this a bit nicer, but now we are ready to build a page that I designed like this:
-![page design](https://lh3.googleusercontent.com/YtzP_-UZx7N9ksPFIuHDxaoBRaB1_fqFWaVkpn4KbWYEogrO9qdCN3Y2TXe0IpiVQfh7UTVWdPuLu1q9YB5YUrrWpBXMBu59uXzEBokfd2laF6QBCI9fV4XEKEv1Ljh6QfOaKVXk7ck0fLq0ngpOEUWCBkM74JLV6SRhKDcKyfu4Or1vBPoe5qdemM2dQHZaZHjSlDCJfmrQ3TzDnnLr2y8sddsn16KTM9iVoi68ou0uMbtv1Rd8sIVArhk68hdBZ6qRmS-LnFcZJK89L6-AoG8_qxeCEmo4zOosBgYG48wnQ1iuVNv2HHU_568Iaj_fzq--JhAssmpTbXYfdemDUo_2qgUTuXlbIHjFaF2sanr4rNYdXOZzkY3973JDb2v0lktKlQ_gc41QfEBYEK41uMlbC_kT5J3n9kv9kmG3LYv9rQ_JY_dkiprZ2OyHyBKJ7v_-QnlJEZTqzGWaVxAAxu7-PvX4PLU6OcRy8sVjLhOwMvinQge0-ktK3YsvnLLAPw4eEKE7xLyoE8l4VwtL-BeLHR8F5jeI9lYTHcVE-fmODkDQTeVOW--q4dhtMuaGMk2IZHE6u2q8ei78b3YS9Z5-Ge6EPoCb2riSePL_k5yltm3OsgaUt5pooPDNXKyY7I8M8saOJ0Gg3nhzH69a9HUDtcWyK5xqDXhfVB-L8rilcyzjmdhdZZD_IVEG8G8_Kjt8BqOnnJxmrSZohexH8hcACiQynIlpTE3lw3BPbQzs8wc=w1151-h791-no)
+![page design](/assets/images/posts/2019-12-16-microservices-frontend/page-design.png)
 
 *Stay tuned for more on this!*
 

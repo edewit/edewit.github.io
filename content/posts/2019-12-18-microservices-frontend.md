@@ -28,7 +28,7 @@ But this is an easy first step that works.
 
 This is what the app now looks like, the components marked in red are from the photo service, blue is the like service and finally green is the query service.
 
-![stitching layer ui](https://lh3.googleusercontent.com/n4qaF71RykQgxXPPYWTsA-9nM9FFb3unaXgKnkCV1_pbnI_HwMjZMKOyqjz_Rk2QAs6iXdninuvESJgvsJW5WFS4hNLleTGHdXLvk10wD0iNGLUQq5_NERAWFCnWwsgf_kBvN86NVY9w_VOz8-0kYHLryhLmg8kB2LWipU5qEuS7KoawbZh97iZjQFlL2EUAVe784iNoRk3AoK2wIOD1Y_ocZDj4_SjjZHgWPF2c58x7OltGgRfUiGGqBf_uYdzRwSxcpzHinkNdwKLsYMPsaz7sqP6J0LiNXkegJ7Cec9x5fnoaqNsqDwQtPcsCQloqz2cyCi6oN2UWGXDnfXqnPvzjBHm8HVTeY1WC5ll1JVCRUi_FKuAEqYSZ0oJ8tpQMaSCmPrVb5rIhiyZguJApKnUjHHvwbqUyF8fQo0istWGpXv4VvZG01THizbqlW-GlOT4LDHmpHvOLn6U9iy-P50grWb1NQ1u_KnN10CXLvyc6OVi831hebi2qK0onNumnszb8hlxJ1o7F1I2Z1FsNx-5HLW1ddVInridpZX_6EbqaHyxaJq9IMZCZ2SMgtsdSpvhAm5AEL_RUD3k8zQ0jV9G8V0Oc1dLajJ6HVP_CQa60GpWVZ9p75VvHK85ROx3nknMViewXdxxj9-y1PeU_edv38nydiwDEKGNkiYQwmNbXnlJ3l_5KDjdGr1ABs25jdd9T4zNTYJmxTy7V_ZVNE-QbVZCijsjtX16xlHpglkRXjf8=w1384-h698-no)
+![stitching layer ui](/assets/images/posts/2019-12-18-microservices-frontend/stitching-layer-ui.png)
 
 A diagram from what we now have the "stitching layer" is still coupling:
 
