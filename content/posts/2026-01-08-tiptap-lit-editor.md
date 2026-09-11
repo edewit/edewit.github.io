@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Bridging the Gap: How We Made Quarkus Roq Feel Like a Modern CMS
+title: "Bridging the Gap: How We Made Quarkus Roq Feel Like a Modern CMS"
+date: 2026-01-08
 author: Erik Jan de Wit
 tags:
 - web
