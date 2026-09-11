@@ -10,8 +10,6 @@ aliases:
 - /2026/01/08/tiptap-lit-editor.html
 ---
 
-# Bridging the Gap: How We Made Quarkus Roq Feel Like a Modern CMS
-
 Every great tool has an origin story, and the **[tiptap-lit-editor](https://github.com/edewit/tiptap-lit-editor)** is no exception.
 It wasn’t born out of a desire to create "just another editor," but rather from a specific need to bridge two worlds: the speed of static sites and the flexibility of a modern CMS.
 
