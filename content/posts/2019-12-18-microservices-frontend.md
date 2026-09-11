@@ -29,10 +29,38 @@ This is what the app now looks like, the components marked in red are from the p
 ![stitching layer ui](https://lh3.googleusercontent.com/n4qaF71RykQgxXPPYWTsA-9nM9FFb3unaXgKnkCV1_pbnI_HwMjZMKOyqjz_Rk2QAs6iXdninuvESJgvsJW5WFS4hNLleTGHdXLvk10wD0iNGLUQq5_NERAWFCnWwsgf_kBvN86NVY9w_VOz8-0kYHLryhLmg8kB2LWipU5qEuS7KoawbZh97iZjQFlL2EUAVe784iNoRk3AoK2wIOD1Y_ocZDj4_SjjZHgWPF2c58x7OltGgRfUiGGqBf_uYdzRwSxcpzHinkNdwKLsYMPsaz7sqP6J0LiNXkegJ7Cec9x5fnoaqNsqDwQtPcsCQloqz2cyCi6oN2UWGXDnfXqnPvzjBHm8HVTeY1WC5ll1JVCRUi_FKuAEqYSZ0oJ8tpQMaSCmPrVb5rIhiyZguJApKnUjHHvwbqUyF8fQo0istWGpXv4VvZG01THizbqlW-GlOT4LDHmpHvOLn6U9iy-P50grWb1NQ1u_KnN10CXLvyc6OVi831hebi2qK0onNumnszb8hlxJ1o7F1I2Z1FsNx-5HLW1ddVInridpZX_6EbqaHyxaJq9IMZCZ2SMgtsdSpvhAm5AEL_RUD3k8zQ0jV9G8V0Oc1dLajJ6HVP_CQa60GpWVZ9p75VvHK85ROx3nknMViewXdxxj9-y1PeU_edv38nydiwDEKGNkiYQwmNbXnlJ3l_5KDjdGr1ABs25jdd9T4zNTYJmxTy7V_ZVNE-QbVZCijsjtX16xlHpglkRXjf8=w1384-h698-no)
 
 A diagram from what we now have the "stitching layer" is still coupling:
-![stitching layer](https://lh3.googleusercontent.com/IlvYJ8OsYGdWz9rw_tBeXz7llcpNPjmVlt2_wKNjpFJafeSRQLOpy6-KHiB99hTtSQsMMBzv607Mbjt8krC_JelrC84wqkw7lfHZz19hHVTHCZAmBGCgy1OOExednujpF8jpIFldCNvJUi6vvtFVnYvW1v7-7bK4BjLmYDDEQSkrf8yXcMxtbuQeutNWUynSCnfRhg1H08vhQuVK0Y2miBX82yL53ZCgzhknvb2jk9sSzPbGeNIc6FSRrqIF2R_5J55tpt5imU9L1OxV5iqmUPwa9baVQ0nXOha6lWmlwfzB9OszkV4JHwEZnGxV-udK8cVS2y7aW9KZnhPygTH21eCCOGTMgE2ETrdMFUpqRjKW7KuQ_RVX3CUWUw220AUfkgiR6BDO_hwcUa0304d3FTR_zLLdnTqKVg7lTTvmV_KQIbwXPRmRlAjGue6eYajbi8viReOqiMxH4sDwKbJrngBKlkXOHoGltDxUMxkurXf8mwjYaMpIH4UhbNYNTw2u7a3kuRZoLYAiXT1qpahNRPyeFIzf51DkCrm5AqdvV9dSPPMBas5BQfOGbvDH7hCRlcLTXgC4KbFzjJpbvP_99Xsc8Wzz2RWbu3jWh2N-f-GGWuQtPnXpaug-c1xUFk18-6ELPGEPfzzq6MNRBYDW60XUQ6VR87UMiYy6zdl8MIf4GGH-YHc1nDdE3TInLuBRyv4iE0YrW_Hz3GD0t9EEfWKHuzs_tjHZ8vOF91Y-v5M9tx0=w361-h371-no)
+
+|}
+
+{#diagram language="mermaid" alt="Stitching layer architecture" width=361 height=371 diagramOutputFormat="svg"}
+graph TD
+    SL[stitching layer]
+    SL --> UI1[microservice ui]
+    SL --> UI2[microservice ui]
+    SL --> UI3[microservice ui]
+    UI1 -->|rest| MS1[microservice]
+    UI2 -->|rest| MS2[microservice]
+    UI3 -->|rest| MS3[microservice]
+    MS1 --> DB1[(db)]
+    MS2 --> DB2[(db)]
+    MS3 --> DB3[(db)]
+{/}
+
+{|
 
 There is also a transparent proxy to make our request go to the right microservice:
-![proxy](https://lh3.googleusercontent.com/3P4IaFMKecfeGqiLfH4AuYfnpI4hqQO6PnhYRmh35XWf7gv4ySxiAM67Zk0u0TmhAcdbduVKZPGU5ZsOPAAJKyOvqYv7s5TWj1azV-jIuegxXniCsb_yKq60Szsebp_qOevRNeBzez3zHo84ujUxUyZuvu_j7hZ7n0sUoTo28ymvsm2BknxUEWlTKMegHfbffTqsvkMqlVksK6-6bxWu_ErI9UJzsFcMFoFvK51yJtMH9gorIlGFFk_K5ZqXo0eWcRnW8MdPvcGzPW9HgoTeouJJI5SGVLOjcrpmcVexUTUzjygSBMlaXyRWkfs7r7VPgiGpyw7iOQGoHa9_cFsQ_B8vggXP-slerQTFdV9c9lkrxbzq0LfRzjwR-49ctyY4G7obVWcFP_CVpxsBfW7jXOcqtDPEgJzdcR912BWnEiiFpvgnKLcl0En5hAVftD0Yj0CP6x7Ubo41T2O8bWCFXuXeSg08fubyLkqgargn_VqzDSHcU9hF4WiguHppFM1lZFc_FiOS79N3oS6PZE4W3vxqnXqrEAQtUPBhW_UORlRVILJGYXYkkB4oZyNs6n-qZp_Pu5qMWR65zgAB7Gx_dWAmnFD7jiYXBUpNAKxdf1qezrtvtzOe-dxKf0aVnfeemYh3-9AcdYx55NCKe1Rm4a4NqUwQPUkTP6vcmNqOXKUhaO7lj11nXAhCJhLR3bmk-Qe3AR5u9k32TPvW3h_twy3gzL1Pj6HG60MMSs-55tic1sw=w449-h301-no)
+
+|}
+
+{#diagram language="mermaid" alt="Transparent proxy routing" width=449 height=301 diagramOutputFormat="svg"}
+graph LR
+    Page[Page]
+    Page -->|/photo| PS[photo-service:8080/photo]
+    Page -->|/like| LS[like-service:8081/like]
+    Page -->|/query| QS[query-service:8082/query]
+{/}
+
+{|
 
 In production we'll have to setup this routing some other / better way.
 
