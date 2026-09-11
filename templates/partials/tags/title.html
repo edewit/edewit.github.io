@@ -1,0 +1,12 @@
+<h1 class="page-title">
+    <div class="page-title__text">
+        {#if page.data.tag == 'aerogear'}AeroGear
+        {#else if page.data.tag == 'plugins'}Plugins
+        {#else if page.data.tag == 'windows'}Windows
+        {#else if page.data.tag == 'windows-10'}Windows 10
+        {#else if page.data.tag == 'micro-services'}Micro-Services
+        {#else}{=page.data.tag}
+        {/if}
+    </div>
+    <div class="page-title__subtitle">Articles on the tag <strong>‘{#if page.data.tag == 'aerogear'}AeroGear{#else if page.data.tag == 'plugins'}Plugins{#else if page.data.tag == 'windows'}Windows{#else if page.data.tag == 'windows-10'}Windows 10{#else if page.data.tag == 'micro-services'}Micro-Services{#else}{=page.data.tag}{/if}’</strong></div>
+</h1>

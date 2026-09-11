@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+{#if cdi:siteConfig.highlightstyle?? && cdi:siteConfig.highlightstyle != ''}
+  <link rel="stylesheet" href="/assets/vendor/highlight/styles/{=cdi:siteConfig.highlightstyle}.css">
+{#else}
+  <link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+{/if}
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">

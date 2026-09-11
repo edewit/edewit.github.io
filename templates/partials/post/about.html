@@ -1,0 +1,7 @@
+<div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+        Written by <strong>{#if page.data.author??}{=page.data.author}{#else}{=cdi:siteConfig.author.fullname}{/if}</strong>
+        on <strong>{=page.date.format('dd MMMM yyyy')}</strong>
+    </div>
+</div>

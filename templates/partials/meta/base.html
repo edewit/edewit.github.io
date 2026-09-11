@@ -1,0 +1,5 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{#if page.title?? && page.title != 'index.html'}{=page.title}{#if page.data.subtitle??} — {=page.data.subtitle}{/if} &raquo; {/if}{=cdi:siteConfig.title}</title>
+<meta name="description" content="{#if page.data.description??}{=page.data.description.stripHtml.stripNewlines.truncate(160)}{#else}{=cdi:siteConfig.description}{/if}">
+{#if page.data.tags??}<meta name="keywords" content="{=page.data.tags.asStrings.join(', ')}">{/if}
+<link rel="canonical" href="{=page.url.absolute}">

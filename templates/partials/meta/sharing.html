@@ -1,0 +1,16 @@
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{#if page.title?? && page.title != 'index.html'}{=page.title}{#if page.data.subtitle??} - {=page.data.subtitle}{/if}{#else}{=cdi:siteConfig.title}{/if}" />
+<meta name="twitter:description" content="{#if page.data.description??}{=page.data.description}{#else}{=cdi:siteConfig.description}{/if}" />
+
+<!-- Google plus -->
+<meta name="author" content="{=cdi:siteConfig.author.googleplus}">
+<link rel="author" href="{=cdi:siteConfig.author.googleplus}">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{#if page.title?? && page.title != 'index.html'}{=page.title}{#if page.data.subtitle??} - {=page.data.subtitle}{/if}{#else}{=cdi:siteConfig.title}{/if}">
+<meta property="og:description" content="{#if page.data.description??}{=page.data.description}{#else}{=cdi:siteConfig.description}{/if}">
+<meta property="og:url" content="{=page.url.absolute}">
+<meta property="og:site_name" content="{=cdi:siteConfig.title}">

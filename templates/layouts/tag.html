@@ -1,0 +1,24 @@
+---
+layout: default
+tagging: posts
+---
+
+{#include partials/tags/title.html /}
+
+<ul class="list-posts">
+    {#for post in site.collections.get(page.data.tagCollection)}
+        <li class="post-teaser">
+            <a href="{=post.url}">
+                <span class="post-teaser__title">{=post.title}</span>
+                <span class="post-teaser__date">{=post.date.format('dd MMMM yyyy')}</span>
+            </a>
+        </li>
+    {#else}
+        <li class="empty-post-list">
+            It seems that there are no articles on that category,
+            please go back <a href="/">home</a> to see the full list of articles.
+        </li>
+    {/for}
+</ul>
+
+{#include partials/page/explore.html /}

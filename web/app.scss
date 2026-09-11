@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@use "variables" as *;
+@use "mixins";
+@use "default";
+@use "glitch";
+
+pre.highlight {
+    border: 1px solid #2d6472;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+code.hljs {
+    background-color: #073642;
+}
