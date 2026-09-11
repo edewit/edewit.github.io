@@ -28,7 +28,7 @@ But this is an easy first step that works.
 
 This is what the app now looks like, the components marked in red are from the photo service, blue is the like service and finally green is the query service.
 
-![stitching layer ui](/assets/images/posts/2019-12-18-microservices-frontend/stitching-layer-ui.png)
+![stitching layer ui](stitching-layer-ui.png)
 
 A diagram from what we now have the "stitching layer" is still coupling:
 

@@ -81,7 +81,7 @@ declare namespace JSX {
 }
 ```
 I'm going to see if I can make this a bit nicer, but now we are ready to build a page that I designed like this:
-![page design](/assets/images/posts/2019-12-16-microservices-frontend/page-design.png)
+![page design](page-design.png)
 
 *Stay tuned for more on this!*
 

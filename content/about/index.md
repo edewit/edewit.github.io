@@ -11,4 +11,4 @@ Even today I'm always looking at new technologies, to see if we can solve things
 Because I'm very enthusiastic about technology, I like to exchange thoughts and knowledge with others.
 I do this by talking at conferences or writing blogs here.
 
-[me]:/assets/images/about/me.jpg
+[me]: me.jpg
